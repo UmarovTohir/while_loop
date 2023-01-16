@@ -3,7 +3,7 @@
   Return the number of even numbers up to "a".
 */
 int  func(int a){
-  int i=2;
+  int i=0;
   int j=0;
   while(i <=a){
     j++;
@@ -12,5 +12,5 @@ int  func(int a){
   return j;
 }
 void main() {
-  print (func(33));
+  print (func(30));
 }

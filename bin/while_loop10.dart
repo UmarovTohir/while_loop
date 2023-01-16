@@ -15,10 +15,10 @@ String func(int a){
    if(s!=2){
       return 'tub son';
     }
-  }else
+  }else{
   return 'tub son emas';
- i++; 
-  }return '0';
+ i++; }
+  } return '0';
 }
 void main() { 
 print (func(11));
