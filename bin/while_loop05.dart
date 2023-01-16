@@ -12,7 +12,7 @@
     x += i;
     y += i+1;
     i +=2;
-  } return y-x;
+  } return x-y;
 }
 void main() {
   print (func(6));
